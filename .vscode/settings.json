@@ -1,0 +1,12 @@
+{
+  "oneDarkPro.bold": true,
+  "oneDarkPro.vivid": true,
+  "files.autoSave": "onFocusChange",
+  "editor.wordWrap": "on",
+  "editor.codeActions.triggerOnFocusChange": false,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": false,
+  "editor.fontSize": 16,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.focusAfterRun": "terminal",
+  "cSpell.words": ["colum", "Ecommerce"]
+}
