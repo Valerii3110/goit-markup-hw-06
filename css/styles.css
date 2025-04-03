@@ -572,7 +572,7 @@ address {
 .footer-form {
   display: flex;
   align-items: center;
-  float: column;
+  flex-direction: column;
   gap: 16px;
 }
 
@@ -997,7 +997,7 @@ address {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/people-office--2x.jpg);
+        url(../images/people-office-2x.jpg);
     }
   }
 
