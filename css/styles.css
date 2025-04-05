@@ -803,15 +803,6 @@ address {
   fill: #f4f4fd;
 }
 
-.check-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-. text-line {
-  display: block;
-  text-align: left;
-}
 .modal-check-link {
   line-height: 1.33;
   text-decoration: underline;
@@ -883,6 +874,9 @@ address {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/people-office-tab.jpg);
+  }
+  .check-text {
+    flex-wrap: nowrap;
   }
 
   @media screen and (min-resolution: 2dppx),
