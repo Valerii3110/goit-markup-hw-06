@@ -195,7 +195,7 @@ address {
 }
 
 .mob-menu {
-  width: 100%;
+  width: 100vw;
   height: 100%;
   background-color: #ffffff;
   position: fixed;
@@ -283,6 +283,12 @@ address {
   fill: #ffffff;
 }
 
+.mob-menu.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
 .hero {
   background-color: #2e2f42;
   padding-top: 72px;
@@ -293,7 +299,7 @@ address {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office.jpg);
+    url(../images/hero/people-office-mob-min.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -307,7 +313,7 @@ address {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office-mob-2x.jpg);
+      url(../images/hero/people-office-mob@2x-min.jpg);
   }
 }
 
@@ -853,13 +859,13 @@ address {
     display: flex;
   }
 
-  .header-address-list {
+  .header-contacts-list {
     display: flex;
     flex-direction: column;
     gap: 12px;
   }
 
-  .header-address-link {
+  .header-contacts-link {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -873,7 +879,7 @@ address {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office-tab.jpg);
+      url(../images/hero/people-office-tab-min.jpg);
   }
   .check-text {
     flex-wrap: nowrap;
@@ -887,7 +893,7 @@ address {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/people-office-tab-2x.jpg);
+        url(../images/hero/people-office-tab@2x-min.jpg);
     }
   }
 
@@ -968,12 +974,12 @@ address {
     margin-right: 76px;
   }
 
-  .header-address-list {
+  .header-contacts-list {
     flex-direction: row;
     gap: 40px;
   }
 
-  .header-address-link {
+  .header-contacts-link {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -987,7 +993,7 @@ address {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office.jpg);
+      url(../images/hero/people-office-desk-min.jpg);
   }
 
   @media screen and (min-resolution: 2dppx),
@@ -998,7 +1004,7 @@ address {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/people-office-2x.jpg);
+        url(../images/hero/people-office-desk@2-min.jpg);
     }
   }
 
