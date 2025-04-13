@@ -8,5 +8,23 @@
   "editor.fontSize": 16,
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.focusAfterRun": "terminal",
-  "cSpell.words": ["colum", "Ecommerce"]
+  "cSpell.words": [
+    "атрибут",
+    "бекдроп",
+    "буде",
+    "відкриття",
+    "додаватися",
+    "забиратися",
+    "закриття",
+    "клас",
+    "кнопки",
+    "кнопку",
+    "модалки",
+    "натисканні",
+    "який",
+    "colum",
+    "Ecommerce",
+    "Modall",
+    "portfoli"
+  ]
 }
